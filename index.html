@@ -543,20 +543,23 @@
             <li>
               <a href="https://www.twitter.com/" target="_blank" class="link">
                 <svg class="footer-icon" width="24px" height="24px">
-                  <use href="./images/icons.svg#icon-twitter"></use></svg
-              ></a>
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
             <li>
               <a href="https://www.facebook.com/" target="_blank" class="link">
                 <svg class="footer-icon" width="24px" height="24px">
-                  <use href="./images/icons.svg#icon-facebook"></use></svg
-              ></a>
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/" target="_blank" class="link">
                 <svg class="footer-icon" width="24px" height="24px">
-                  <use href="./images/icons.svg#icon-linkedin"></use></svg
-              ></a>
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -567,13 +570,14 @@
             <input
               placeholder="E-mail"
               id="footer-email"
+              name="email"
               type="email"
               class="footer-input"
               autofocus
             />
-            <button type="button" class="footer-form-btn">
+            <button type="submit" class="footer-form-btn">
               Subscribe
-              <svg class="footer-btn-svg" width="24px" height="20px">
+              <svg class="footer-btn-svg" width="24px" height="24px">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -598,7 +602,13 @@
         <form class="modal-form" name="subscribers_name" autocomplete="off">
           <label for="modal-name" class="modal-label">Name</label>
           <div class="modal-thumb-form">
-            <input id="modal-name" type="text" class="modal-input" autofocus />
+            <input
+              id="modal-name"
+              name="name"
+              type="text"
+              class="modal-input"
+              autofocus
+            />
             <svg class="modal-btn-svg" width="18px" height="24px">
               <use href="./images/icons.svg#icon-human-modal"></use>
             </svg>
@@ -606,7 +616,13 @@
 
           <label for="modal-phone" class="modal-label">Phone</label>
           <div class="modal-thumb-form">
-            <input id="modal-phone" type="tel" class="modal-input" autofocus />
+            <input
+              id="modal-phone"
+              name="phone"
+              type="tel"
+              class="modal-input"
+              autofocus
+            />
             <svg class="modal-btn-svg" width="18px" height="24px">
               <use href="./images/icons.svg#icon-phone-modal"></use>
             </svg>
@@ -616,6 +632,7 @@
           <div class="modal-thumb-form">
             <input
               id="modal-email"
+              name="email"
               type="email"
               class="modal-input"
               autofocus
@@ -633,6 +650,7 @@
               placeholder="Text input"
               type="text"
               id="textarea"
+              name="message"
               class="modal-input-comment"
               required
             ></textarea>
@@ -656,7 +674,7 @@
               <a href="#" class="modal-confirm-link">Privacy Policy</a></label
             >
           </div>
-          <button type="button" class="modal-send">Send</button>
+          <button type="submit" class="modal-send">Send</button>
         </form>
       </div>
     </div>
