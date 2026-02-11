@@ -828,6 +828,7 @@ background-color: #404bbf;
   color: #8e8f99;
 }
 .custom-checkbox {
+  margin-right: 9px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -849,9 +850,6 @@ background-color: #404bbf;
   background-color: #404bbf;
   border: none;
   fill: #fff;
-}
-.check-svg {
-  margin-right: 9px;
 }
 .modal-confirm-link {
   line-height: 1.33333;
