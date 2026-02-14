@@ -480,6 +480,7 @@
       </h2>
 
       <form class="modal-form" name="subscribers_name" autocomplete="off">
+        <div class="modal-field">
         <label for="modal-name" class="modal-label">Name</label>
         <div class="modal-thumb-form">
           <input id="modal-name" name="name" type="text" class="modal-input" autofocus />
@@ -487,7 +488,9 @@
             <use href="./images/icons.svg#icon-human-modal"></use>
           </svg>
         </div>
+        </div>
 
+        <div class="modal-field">
         <label for="modal-phone" class="modal-label">Phone</label>
         <div class="modal-thumb-form">
           <input id="modal-phone" name="phone" type="tel" class="modal-input" />
@@ -495,7 +498,9 @@
             <use href="./images/icons.svg#icon-phone-modal"></use>
           </svg>
         </div>
+        </div>
 
+        <div class="modal-field">
         <label for="modal-email" class="modal-label">Email</label>
         <div class="modal-thumb-form">
           <input id="modal-email" name="email" type="email" class="modal-input" />
@@ -503,11 +508,14 @@
             <use href="./images/icons.svg#icon-email-modal"></use>
           </svg>
         </div>
+        </div>
 
+        <div class="modal-field">
         <label for="textarea" class="modal-label modal-comment">Comment</label>
         <div class="modal-thumb-form">
           <textarea placeholder="Text input" id="textarea" name="message" class="modal-input-comment"
             required></textarea>
+        </div>
         </div>
 
         <div class="modal-thumb-confirm">
@@ -519,6 +527,7 @@
               </svg> </span>I accept the terms and conditions of the
             <a href="#" class="modal-confirm-link">Privacy Policy</a></label>
         </div>
+        
         <button type="submit" class="modal-send">Send</button>
       </form>
     </div>
