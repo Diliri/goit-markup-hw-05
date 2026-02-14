@@ -780,7 +780,8 @@ background-color: #404bbf;
 }
 .modal-input-comment {
   letter-spacing: 0.04em; 
-  padding: 16px ;
+  padding: 16px;
+  margin-bottom: 16px;/* Відступ між textarea та чекбоксом */
 
   width: 100%;
   height: 120px;
@@ -813,12 +814,15 @@ background-color: #404bbf;
   margin-top: 16px;
 }
 
-
 /*.modal-input-confirm {
   pointer-events: none;
 } */
 
 .modal-label-confirm {
+  /* Відступ між лейблом конфірм та кнопкою */
+  display: block; /* щоб margin-bottom працював на блоковому елементі */
+  margin-bottom: 24px; /* відступ до кнопки Send */
+  
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
